@@ -1,0 +1,47 @@
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1.5rem;
+    }
+    section{
+        padding: 1.5rem;
+    }
+    .home .content h3{
+       font-size: 5rem;
+    }
+}
+@media(max-width:768px){
+   
+    header{
+        flex-flow: column;
+    }
+    header form{
+        width: 100%;
+        margin:2rem 0;
+    }
+    header.active{
+        transform: translateY(-12.5rem);
+    }
+    .home .content {
+        text-align: center;
+    }
+    .home .image img{
+        width: 100%;
+    }
+    
+}
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    header{
+        padding: 1.5rem;
+    }
+    .heading{
+        text-align: center;
+        font-size: 2.5rem;
+        border-bottom: none;
+    }
+}
